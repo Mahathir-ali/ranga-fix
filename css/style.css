@@ -1,6 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Allison&display=swap");
+
 body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  width: 150px;
+}
+.store-name {
+  color: rgb(101, 42, 156);
+  font-family: "Allison", cursive;
+  font-size: 4em;
+  font-weight: 700;
 }
 .search-field {
   width: 338px;
