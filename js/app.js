@@ -79,7 +79,7 @@ const updateTotal = () => {
   const grandTotal = getInputValue("price") + getInputValue("delivery-charge") + getInputValue("total-tax");
   document.getElementById("total").innerText = grandTotal.toFixed(2);
 };
-
+// mycart checkout
 const checkOut = () => {
   confirm('Want to CheckOut ?')
-}
+};
